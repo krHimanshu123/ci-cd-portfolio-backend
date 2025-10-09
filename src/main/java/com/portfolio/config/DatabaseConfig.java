@@ -17,5 +17,6 @@ public class DatabaseConfig {
         return new EmbeddedDatabaseBuilder()
                 .setType(EmbeddedDatabaseType.H2)
                 .build();
+        
     }
 }
