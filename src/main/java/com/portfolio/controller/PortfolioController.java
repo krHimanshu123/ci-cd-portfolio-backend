@@ -26,7 +26,7 @@ public class PortfolioController {
         List<Service> services = portfolioService.getAllServices();
         return ResponseEntity.ok(services);
     }
-    
+
     @GetMapping("/technologies")
     public ResponseEntity<List<Technology>> getAllTechnologies() {
         List<Technology> technologies = portfolioService.getAllTechnologies();
