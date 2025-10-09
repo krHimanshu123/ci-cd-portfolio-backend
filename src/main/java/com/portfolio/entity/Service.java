@@ -21,6 +21,7 @@ public class Service {
     
     @Column(name = "display_order")
     private Integer displayOrder = 0;
+
     
     public Service() {}
     
