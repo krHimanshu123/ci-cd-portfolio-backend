@@ -24,6 +24,7 @@ public class Testimonial {
     private String company;
     
     private String image;
+
     
     @Column(name = "display_order")
     private Integer displayOrder = 0;
