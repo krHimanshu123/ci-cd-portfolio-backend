@@ -23,6 +23,7 @@ public class CorsConfig implements WebMvcConfigurer {
                 .allowCredentials(true);
     }
 
+    
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
