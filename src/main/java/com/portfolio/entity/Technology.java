@@ -18,6 +18,7 @@ public class Technology {
     @NotBlank(message = "Icon is required")
     @Column(nullable = false)
     private String icon;
+
     
     @Column(name = "display_order")
     private Integer displayOrder = 0;
