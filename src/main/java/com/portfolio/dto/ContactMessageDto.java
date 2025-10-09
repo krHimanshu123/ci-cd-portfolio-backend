@@ -14,6 +14,7 @@ public class ContactMessageDto {
     
     @NotBlank(message = "Message is required")
     private String message;
+
     
     public ContactMessageDto() {}
     
