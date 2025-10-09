@@ -18,6 +18,7 @@ public class ProjectTag {
     @NotBlank(message = "Color is required")
     @Column(nullable = false)
     private String color;
+
     
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "project_id")
