@@ -8,6 +8,7 @@ import java.util.List;
 
 @Repository
 public interface TestimonialRepository extends JpaRepository<Testimonial, Long> {
+    
     List<Testimonial> findAllByOrderByDisplayOrderAsc();
     
 }
