@@ -8,6 +8,7 @@ import java.util.List;
 
 @Repository
 public interface TechnologyRepository extends JpaRepository<Technology, Long> {
+    
     List<Technology> findAllByOrderByDisplayOrderAsc();
     
 }
